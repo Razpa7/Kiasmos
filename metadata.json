@@ -1,0 +1,7 @@
+{
+  "name": "Especialista en Sistemas Familiares",
+  "description": "Un asistente de IA experto en terapia familiar intergeneracional basado en la obra 'Lealtades Invisibles' de Boszormenyi-Nagy y Spark. Ayuda a descubrir deudas emocionales y lealtades ocultas.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
