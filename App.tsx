@@ -194,7 +194,7 @@ function App() {
         }`}>
             <div className="flex items-center space-x-3">
                 <div className={`w-10 h-10 rounded-full flex items-center justify-center text-white font-bold shadow-sm transition-colors duration-500 ${isLiveActive ? 'bg-red-500 animate-pulse' : 'bg-indigo-600'}`}>
-                    SF
+                    K
                 </div>
                 <div>
                     <h1 className={`font-semibold text-lg ${isDarkMode ? 'text-slate-100' : 'text-slate-800'}`}>{uiTexts.title}</h1>

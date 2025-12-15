@@ -2,13 +2,13 @@ import { Language } from "./types";
 
 export const UI_TEXTS = {
   es: {
-    title: "Especialista Sistémico",
-    subtitle: "Lealtades Invisibles",
+    title: "Kiasmos",
+    subtitle: "Intersecciones Sistémicas",
     liveActive: "En vivo con Gemini",
-    placeholder: "Ingresa tu respuesta...",
-    placeholderLive: "Habla con el especialista...",
+    placeholder: "Escribe tu respuesta...",
+    placeholderLive: "Habla con Kiasmos...",
     listening: "Escuchando... Puedes interrumpirme.",
-    clinicalRecord: "Expediente Clínico",
+    clinicalRecord: "Expediente Kiasmos",
     genogram: "Genograma (Mapa Familiar)",
     ledger: "Libro Mayor de Méritos",
     merits: "TUS MÉRITOS (Diste)",
@@ -35,13 +35,13 @@ export const UI_TEXTS = {
     silentMode: "Modo Silencio"
   },
   en: {
-    title: "Systemic Specialist",
-    subtitle: "Invisible Loyalties",
+    title: "Kiasmos",
+    subtitle: "Systemic Intersections",
     liveActive: "Live with Gemini",
     placeholder: "Enter your answer...",
-    placeholderLive: "Speak with the specialist...",
+    placeholderLive: "Speak with Kiasmos...",
     listening: "Listening... You can interrupt.",
-    clinicalRecord: "Clinical Record",
+    clinicalRecord: "Kiasmos Record",
     genogram: "Genogram (Family Map)",
     ledger: "Ledger of Merits",
     merits: "YOUR MERITS (Gave)",
@@ -71,16 +71,16 @@ export const UI_TEXTS = {
 
 export const getInitialGreeting = (lang: Language) => {
     if (lang === 'en') {
-        return "Hello. I am your family systems specialist. I am here to help you discover why certain problems repeat in your life by looking for the cause in hidden ties with your family. For example, if you feel you work hard but money is never enough, or if you feel you always give more than you receive in relationships, you might be paying an old emotional debt. To start analyzing your case and open your file, I first need to know: What is your name?";
+        return "Hello. I am Kiasmos, your family systems specialist. I help you discover why certain problems repeat in your life by looking for the cause in hidden ties with your family. For example, if you feel you work hard but money is never enough, or if you feel you always give more than you receive in relationships, you might be paying an old emotional debt. To start analyzing your case and open your file, I first need to know: What is your name?";
     }
-    return "Hola. Soy tu especialista en sistemas familiares. Estoy aquí para ayudarte a descubrir por qué ciertos problemas se repiten en tu vida, buscando la causa en los lazos ocultos con tu familia. Por ejemplo, si sientes que trabajas mucho pero el dinero nunca rinde, o si sientes que siempre das más de lo que recibes en tus relaciones, es posible que estés pagando una deuda emocional antigua. Para comenzar a analizar tu caso y abrir tu expediente, primero necesito saber: ¿Cuál es tu nombre?";
+    return "Hola. Soy Kiasmos, tu especialista en sistemas familiares. Estoy aquí para ayudarte a descubrir por qué ciertos problemas se repiten en tu vida, buscando la causa en los lazos ocultos con tu familia. Por ejemplo, si sientes que trabajas mucho pero el dinero nunca rinde, o si sientes que siempre das más de lo que recibes en tus relaciones, es posible que estés pagando una deuda emocional antigua. Para comenzar a analizar tu caso y abrir tu expediente, primero necesito saber: ¿Cuál es tu nombre?";
 };
 
 export const getSystemInstruction = (lang: Language) => {
     if (lang === 'en') {
         return `
 ROLE:
-You are the "Family Systems Specialist", an expert AI based strictly on the content of the book "Invisible Loyalties" by Ivan Boszormenyi-Nagy and Geraldine M. Spark.
+You are "Kiasmos", the Family Systems Specialist, an expert AI based strictly on the content of the book "Invisible Loyalties" by Ivan Boszormenyi-Nagy and Geraldine M. Spark.
 
 OBJECTIVE:
 Help the user discover ethical imbalances, emotional debts, and hidden loyalties.
@@ -120,7 +120,7 @@ GOLDEN RULES:
 
     return `
 ROL:
-Eres el "Especialista en Sistemas Familiares", una IA experta basada estrictamente en el contenido del libro "Lealtades Invisibles" de Iván Boszormenyi-Nagy y Geraldine M. Spark.
+Eres "Kiasmos", el Especialista en Sistemas Familiares, una IA experta basada estrictamente en el contenido del libro "Lealtades Invisibles" de Iván Boszormenyi-Nagy y Geraldine M. Spark.
 
 OBJETIVO:
 Ayudar al usuario a descubrir desequilibrios éticos, deudas emocionales y lealtades ocultas.
