@@ -1,20 +1,57 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# KIASMOS - Especialista en Sistemas Familiares
 
-# Run and deploy your AI Studio app
+**AI-powered family therapy assistant based on Bozsormeni-Nagy's Invisible Loyalties theory**
 
-This contains everything you need to run your app locally.
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://kiasmos.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black)](https://github.com/Razpa7/Kiasmos)
 
-View your app in AI Studio: https://ai.studio/apps/drive/1trUMHn4NDJZVCul2tCTt_mGOhcVqI5I1
+---
 
-## Run Locally
+## What is Kiasmos?
 
-**Prerequisites:**  Node.js
+Kiasmos is an intelligent conversational assistant that helps you understand the invisible loyalties and family dynamics. Using advanced AI and systemic family therapy principles, Kiasmos analyzes your family patterns.
 
+### Core Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Voice & Text Conversations** - Real-time voice with Spanish/English support
+- **Genogram Generation** - Auto-generated family tree visualization  
+- **Systemic Dashboard** - Libro Mayor (Ledger) tracks emotional credits/debts
+- **Advanced Options** - Dark mode, session persistence, export reports
+
+---
+
+## Quick Start
+
+**Visit**: https://kiasmos.vercel.app
+
+### Requirements
+You need a **Google Gemini API Key**:
+1. Go to https://aistudio.google.com
+2. Get your free API key
+3. Paste it in Kiasmos settings
+
+---
+
+## Technology Stack
+
+- React + TypeScript
+- Google Gemini 3 Pro Live API
+- Web Audio API  
+- Mermaid.js (family trees)
+- Tailwind CSS
+- Vercel deployment
+- Vite build
+
+---
+
+## Support
+
+- **Live App**: https://kiasmos.vercel.app
+- **GitHub**: https://github.com/Razpa7/Kiasmos
+- **Report Bugs**: Use GitHub Issues
+
+---
+
+**Created with love for systemic understanding**
+
+*December 2025*
